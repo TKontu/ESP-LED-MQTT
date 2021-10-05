@@ -15,6 +15,9 @@ To use this code simply configure the PIN and NUMPIXELS variables in the NeoPixe
 * You can optionally enable ArduinoOTA to make uploading changes easier.
 
 ## Change Log
+05/10/2021
+ *Updated the code to be compatible with ArduinoJSON6
+  
 19/06/2019
 * Config is now in a separate file.
 * 2 new animations added.
