@@ -16,8 +16,7 @@ To use this code simply configure the PIN and NUMPIXELS variables in the NeoPixe
 
 ## Change Log
 05/10/2021
-  
- *Updated the code to be compatible with ArduinoJSON6
+ * Updated the code to be compatible with ArduinoJSON6.
   
 19/06/2019
 * Config is now in a separate file.
