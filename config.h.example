@@ -1,0 +1,27 @@
+// Replace all the placeholders (starting with "<" and ending in ">") with the correct values
+
+// Neopixel
+#define PIN            "pinnumber"
+#define NUMPIXELS      "pixelcount"
+
+//Other:
+#define LED_BUILTIN = 2; //Declaration of onboard led
+
+// Wifi
+char* SSID = "SSID";
+char* WiFiPassword = "password";
+char* WiFiHostname = "ESP_Hostname";
+
+// MQTT
+const char* mqtt_server = "MQTT_server_IP";
+int mqtt_port = 1883;
+const char* mqttUser = "MQTT_username";
+const char* mqttPass = "MQTT_password";
+
+// Device Specific Topics
+const char* commandlTopic = "light/led_bathroom";
+const char* stateTopic = "light/led_bathroom/state";
+const char* rgbCommandTopic = "light/led_bathroom/rgb";
+const char* rgbStateTopic = "light/led_bathroom/rgb/state";
+const char* availabilityTopic = "light/led_bathroom/availability";
+const char* recoveryTopic = "light/led_bathroom/recovery";
